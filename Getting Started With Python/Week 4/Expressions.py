@@ -25,3 +25,7 @@ Highest precedence rule to lowest precedence rule:
 - Addition, Subtraction.
 - Left to Right.
 """
+
+
+# Type
+# We can ask python the type of a variable by using the function: type()
