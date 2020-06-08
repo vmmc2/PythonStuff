@@ -17,11 +17,11 @@ print(greeting) #it is going to print the string "Hello World"
 
 
 # Operator Precedence
-'''
+"""
 Highest precedence rule to lowest precedence rule:
 - Parentheses are always respected. They stand above everything.
 - Exponentiation (raise to a power)
 - Multiplication, Division, Remainder.
 - Addition, Subtraction.
 - Left to Right.
-'''
+"""
