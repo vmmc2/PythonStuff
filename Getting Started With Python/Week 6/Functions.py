@@ -4,6 +4,8 @@
 # We indent the body of the function (using 4 spaces).
 # This defines the function but does not execute the body of the function.
 
+# Again the "def" statement does not automatically run the function. You must invoke it.
+
 def print_lyrics():
     print("I am a Lumberjack, and I am okay.")
     print("I sleep all night and I work all day.")
