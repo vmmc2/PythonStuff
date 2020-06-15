@@ -10,3 +10,17 @@ zap = greet.lower() # pego a string greet, deixo todos os seus caracterers como 
 print(zap)
 
 print("Hello There, Baby".lower())
+
+
+# The find() method.
+
+# We use this method to check whether a string/char/substring exists inside another string.
+# It does not return True or False.
+# It returns the index of the first occurrence of the substring inside the string. If we do not find the substring inside the string, we return -1.
+
+fruit = "banana"
+pos = fruit.find('na')
+print(pos) # it is going to print 2.
+
+zz = fruit.find('z')
+print(zz) # it is going to print -1 because we did not find the substring 'z' inside the string 'banana'.
