@@ -18,6 +18,10 @@ def main():
     vegetable = 'lettuce'
     size = len(vegetable) # to get the length/size of the string, we can use a built-in function called: len()
     print(size)
+    
+    #Printing every single letter/character inside a string.
+    for letter in vegetable:
+        print(letter) # this piece of code is going to print all characters (line per line) that are inside the string vegetable.
 
 
 
