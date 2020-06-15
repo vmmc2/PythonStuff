@@ -14,6 +14,10 @@ def main():
     x = 3
     w = fruit[x - 1]
     print(w) # it is going to print 'n'
+    
+    vegetable = 'lettuce'
+    size = len(vegetable) # to get the length/size of the string, we can use a built-in function called: len()
+    print(size)
 
 
 
