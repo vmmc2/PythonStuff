@@ -6,6 +6,12 @@
 # When a string contains numbers, it is still a string.
 # We can convert a string containing numbers into a number by using the function int()
 
+
+# Using 'in' as a Logical Operator
+
+# The 'in' keyword can also be used to check if one string in/inside another string.
+# The 'in' expression is a logical expression that returns True or False and can be used in an 'if' statement.
+
 def main():
     fruit = 'banana'
     letter = fruit[1]
