@@ -7,3 +7,10 @@ taichou = 'Byakuya'
 dictionary = {'Ichigo' : 12, 'Aizen': 13}
 x = dictionary.get(taichou, 0)
 print(x) # It's going to print 0
+
+# Simplifying counting with the get() method: Take a look at the example below.
+counts = dict()
+names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
+for name in names:
+  counts[name] = counts.get(name, 0) + 1
+print(counts)
