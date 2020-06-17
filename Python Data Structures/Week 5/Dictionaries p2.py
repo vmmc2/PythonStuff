@@ -14,3 +14,10 @@ names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
 for name in names:
   counts[name] = counts.get(name, 0) + 1
 print(counts)
+
+# Retrieving lists of Keys and Values
+# -> You can get a list of keys, or values (or even both) from a dictionary:
+jjj = {'Chuck': 42, 'Sam': 10, 'Dean': 11}
+print(jjj.keys()) # it is going to print ['Chuck', 'Sam', 'Dean']
+print(jjj.values()) # it is going to print [42, 10, 11]
+print(jjj.items()) # it is going to print [('Chuck', 42), ('Sam', 10), ('Dean', 11)]
