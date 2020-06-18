@@ -34,19 +34,18 @@ class Solution:
         a = 0
         b = 0
         while i <=6:
-            freq = {'1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0}
+            j = 0
             while j <= 6:
                 a = 0
                 b = 0
-                while a < 3:
-                    while b < 3:
+                freq = {'1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0}
+                for a in range(0, 3):
+                    for b in range(0, 3):
                         if board[i + a][j + b] == '.': continue
                         else:
                             freq[board[i + a][j + b]] += 1
                             if freq[board[i + a][j + b]] > 1:
                                 valid = False
-                        b += 1
-                    a += 1
                 j += 3
             i += 3
         return valid
