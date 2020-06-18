@@ -1,5 +1,5 @@
 # Python Stuff
-Some code snippets using Python 3
+Some code snippets using Python 3.
 
 ## About Python Scripts
 * Interactive Python is good when you are coding an experiment or tiny programs (Usually each one of them will have 3/4 lines of code).
