@@ -7,4 +7,3 @@
 ## Strings
 * String to Integer
 * Count And Say
-* Longest Common Prefix
