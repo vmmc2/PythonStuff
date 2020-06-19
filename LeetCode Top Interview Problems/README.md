@@ -6,6 +6,5 @@
 
 ## Strings
 * String to Integer
-* Implement strStr()
 * Count And Say
 * Longest Common Prefix
