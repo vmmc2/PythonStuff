@@ -6,4 +6,3 @@
 
 ## Strings
 * String to Integer
-* Count And Say
