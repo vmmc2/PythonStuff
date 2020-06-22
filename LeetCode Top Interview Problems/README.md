@@ -8,7 +8,7 @@
 * String to Integer
 
 ## DP
-* Maximum Subarray
+* Best Time to Buy and Sell Stock
 
 # Easy Collection (Refazer):
 * Count and Say
