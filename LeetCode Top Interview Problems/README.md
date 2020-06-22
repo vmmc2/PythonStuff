@@ -7,6 +7,9 @@
 ## Strings
 * String to Integer
 
+## DP
+* Maximum Subarray
+
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
