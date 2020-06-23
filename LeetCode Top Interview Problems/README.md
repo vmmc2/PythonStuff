@@ -12,3 +12,4 @@
 * First Unique Character In a String
 * Longest Common Prefix
 * Rotate Image
+* Power Of Three (Not the common approach)
