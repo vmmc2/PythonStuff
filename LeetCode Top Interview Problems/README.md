@@ -7,6 +7,10 @@
 ## Strings
 * String to Integer
 
+## Math
+* Roman To Integer
+* Count Primes
+
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
