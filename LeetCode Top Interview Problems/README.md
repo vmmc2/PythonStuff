@@ -1,7 +1,6 @@
 # Easy Collection (O que falta fazer):
 
 ## Arrays
-* Rotate Array
 * Move Zeroes
 
 ## Strings
@@ -15,3 +14,4 @@
 * Power Of Three (Not the common approach)
 * Count Primes (Better Optimization)
 * Reverse Bits
+* Rotate Array
