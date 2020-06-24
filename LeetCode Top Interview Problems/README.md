@@ -7,6 +7,9 @@
 ## Strings
 * String to Integer
 
+## Others
+* Reverse Bits
+
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
