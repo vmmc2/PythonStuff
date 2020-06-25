@@ -1,3 +1,7 @@
+# Medium Collection (Falta fazer):
+## DP
+* Longest Increase Subsequence
+
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
