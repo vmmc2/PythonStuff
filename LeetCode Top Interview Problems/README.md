@@ -4,10 +4,6 @@
 * Populating Next Right Pointers in Each Node
 * Construct Binary Tree from Preorder and Inorder Traversal
 
-## Sorting and Searching
-* Sort Colors
-* Merge Intervals
-
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
