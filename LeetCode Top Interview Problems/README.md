@@ -21,3 +21,5 @@
 
 # Medium Collection (Refazer):
 * Find Peak Element
+* Merge Intervals
+* Odd Even Linked List
