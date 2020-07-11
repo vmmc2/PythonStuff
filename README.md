@@ -7,4 +7,4 @@ Some code snippets using Python 3.
 ```shell
 python3 example_python_file.py
 ```
-* In a sense, we are giving Python a script for it to run.
+* In a sense, we are giving Python a script for it to run...
