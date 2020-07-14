@@ -1,7 +1,5 @@
 # Medium Collection (Falta fazer):
 ## Trees and Graphs
-* Binary Tree ZigZag Level Order Traversal
-* Populating Next Right Pointers in Each Node
 * Construct Binary Tree from Preorder and Inorder Traversal
 
 # Easy Collection (Refazer):
