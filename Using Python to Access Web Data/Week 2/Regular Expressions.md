@@ -19,3 +19,9 @@
 * [a-z0-9] -> Set of characters can include a range.
 * '(' -> Indicates where string extraction is to start.
 * ')' -> Indicates where string extraction is to end.
+
+## Observations
+* In order to use the features of regular expressions, you must first import the module that has all the features to work with it. You can do this in 1 line by using the following statement: 
+```python
+import re
+```
