@@ -25,3 +25,5 @@
 ```python
 import re
 ```
+* You can use the method __re.search()__ to check whether a string matches a regular expression, similar to using the find() method of strings.
+* You can use the method __re.findall()__ to extract portions of a string that match your regular expression, similar to a combination of find() and slicing: var[5:10].
