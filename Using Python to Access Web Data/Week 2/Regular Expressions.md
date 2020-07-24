@@ -5,9 +5,9 @@
 * A regular expression is written in a formal language that can be interpreted by a regular expression processor.
 
 ## Regular Expression Quick Guide
-* ^ -> Matches the beginning of a line.
-* $ -> Matches the end of the line.
-* . -> Matches any character.
-* \s -> Matches whitespace.
-* \S -> Matches any non-whitespace character.
-* * -> Repeats a character zero or more times.
+* '^' -> Matches the beginning of a line.
+* '$' -> Matches the end of the line.
+* '.' -> Matches any character.
+* '\s' -> Matches whitespace.
+* '\S' -> Matches any non-whitespace character.
+* '*' -> Repeats a character zero or more times.
