@@ -13,3 +13,15 @@ print(y)
 
 # The print() function above is going to provide the following result: y = ['2', '19', '42']
 ```
+* Pay attention to the size of the list that we received as an output. It might be possible that there is no substring that matches the regular expression provided. If that's the case, then we are going to receive an empty list. If there is 1 substring that matches the regular expression, then the size of the list is going to be 1. If there are 2 substrings, then the size of the list is going to be 2, and so on...
+
+## Greedy Matching
+* Considering the example above, suppose that the value of the string s would be the following:
+```python
+import re
+
+s = "From: Using the: character"
+y = re.findall('^F.+:' , s)
+print(y)
+```
+* Qual seria a substring retornada? Seria "From:" ou seria "From: Using the:" ??? Ao testarmos o codigo escrito acima, vemos que o resultado eh a substring "From: Using the:", isso acontece porque, por definicao, o matching the regular expressions utiliza uma abordagem gulosa conhecida como greedy matching. __Ou seja, quando chamamos a funcao re.findall(), ele tenta encontrar a maior substring que consiga dar match com a regular expression fornecida. Por causa disso que o resultado eh a string "From: Using the:"__
