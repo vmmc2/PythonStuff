@@ -28,3 +28,22 @@ print(y)
 * Em outras palavras, temos que:
   * Greedy Matching: Maior susbstring possivel que case com a regular expression fornecida.
   * Non-Greedy Matching: Menor substring possivel que case com a regular expression fornecida.
+
+## Greedy Matching vs Non-Greedy Matching Example
+* Greedy Matching
+```python
+import re
+
+ss = "From: Using the: character"
+y = re.findall('^F.+:' , ss)
+print(y)
+```
+
+* Non-Greedy Matching
+```python
+import re
+
+ss = "From: Using the: character"
+y = re.findall(^F.+?: , ss)  # O caracter '?' indica que a funcao deve efetuar um Non-Greedy Matching.
+print(y)
+```
