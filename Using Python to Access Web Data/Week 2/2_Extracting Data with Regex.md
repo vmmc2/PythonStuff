@@ -25,3 +25,6 @@ y = re.findall('^F.+:' , s)
 print(y)
 ```
 * Qual seria a substring retornada? Seria "From:" ou seria "From: Using the:" ??? Ao testarmos o codigo escrito acima, vemos que o resultado eh a substring "From: Using the:", isso acontece porque, por definicao, o matching the regular expressions utiliza uma abordagem gulosa conhecida como greedy matching. __Ou seja, quando chamamos a funcao re.findall(), ele tenta encontrar a maior substring que consiga dar match com a regular expression fornecida. Por causa disso que o resultado eh a string "From: Using the:"__
+* Em outras palavras, temos que:
+  * Greedy Matching: Maior susbstring possivel que case com a regular expression fornecida.
+  * Non-Greedy Matching: Menor substring possivel que case com a regular expression fornecida.
