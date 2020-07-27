@@ -25,3 +25,13 @@ ASCII Table -> 128 characters -> 0 to 127.
 Extended ASCII Table -> 256 characters -> 0 to 255.
 ```
 * But nowadays, thins are not so simple. We must deal with hundreds of thousands of characters. In order to do so, Unicode was created. It is basically a new way to represent characters inside the computer.
+* Turns out that the Unicode System and the ASCII System overlap when it comes to mapping. So, if you are using just ASCII characters in a Python program, you do not have to worry about it.
+* In Python3, we have three different types of strings. We have the normal string, the byte string and the unicode string. Moreover, Python considers that the normal string and the unicode string are part of the String type, so we do not see any difference between them but the byte string is part of the Bytes type.
+```python
+x = b'abc'  # byte-string
+print(type(x)) # <class 'bytes'>
+y = 'xyz' # normal-string
+print(type(y)) # <class 'str'>
+z = u'123' # unicode-string
+print(type(z)) # <class 'str'>
+```
