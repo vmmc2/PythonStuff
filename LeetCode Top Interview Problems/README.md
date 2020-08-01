@@ -1,7 +1,3 @@
-# Medium Collection (Falta fazer):
-## Trees and Graphs
-* Construct Binary Tree from Preorder and Inorder Traversal
-
 # Easy Collection (Refazer):
 * Count and Say
 * First Unique Character In a String
@@ -20,4 +16,4 @@
 * Odd Even Linked List
 * Longest Palindromic Substring
 * Word Search
-
+* Construct Binary Tree from Preorder and Inorder Traversal
