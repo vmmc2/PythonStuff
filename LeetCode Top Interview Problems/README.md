@@ -3,7 +3,6 @@
 * First Unique Character In a String
 * Longest Common Prefix
 * Count Primes (Better Optimization)
-* Reverse Bits
 * Rotate Array
 * Move Zeroes
 
