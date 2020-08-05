@@ -1,6 +1,5 @@
 # Easy Collection (Refazer):
 * Count and Say
-* First Unique Character In a String
 * Longest Common Prefix
 * Count Primes (Better Optimization)
 * Move Zeroes
