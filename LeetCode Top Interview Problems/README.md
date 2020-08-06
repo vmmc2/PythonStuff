@@ -1,6 +1,4 @@
 # Medium Collection (Refazer):
-* 3sum
-* Find Peak Element
 * Merge Intervals
 * Odd Even Linked List
 * Longest Palindromic Substring
