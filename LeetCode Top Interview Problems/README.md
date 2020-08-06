@@ -1,6 +1,5 @@
 # Easy Collection (Refazer):
 * Count Primes (Better Optimization)
-* Move Zeroes
 
 # Medium Collection (Refazer):
 * 3sum
