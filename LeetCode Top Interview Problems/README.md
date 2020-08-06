@@ -1,5 +1,4 @@
 # Easy Collection (Refazer):
-* Count and Say
 * Longest Common Prefix
 * Count Primes (Better Optimization)
 * Move Zeroes
