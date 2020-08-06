@@ -1,6 +1,3 @@
-# Easy Collection (Refazer):
-* Count Primes (Better Optimization)
-
 # Medium Collection (Refazer):
 * 3sum
 * Find Peak Element
