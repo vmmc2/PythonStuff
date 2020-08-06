@@ -1,5 +1,4 @@
 # Medium Collection (Refazer):
-* Merge Intervals
 * Odd Even Linked List
 * Longest Palindromic Substring
 * Word Search
