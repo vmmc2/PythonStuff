@@ -12,3 +12,7 @@ def fatorial(n: int):
     else:
         return n * fatorial(n - 1)
 ```
+
+### Tipos
+* Python possui ```int```, ```float```, ```str```, ```bool```.
+* Entretanto, Python não possui um tipo ```char```.
