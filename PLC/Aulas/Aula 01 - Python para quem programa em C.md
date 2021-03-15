@@ -22,3 +22,4 @@ def fatorial(n: int) -> int:
 True + 1 # == 2
 False - 3 # == -3
 ```
+* Reciprocamente, qualquer valor numérico diferente de 0 representa o valor booleano ```True```. Por outro lado, 0 representa ```False```.
