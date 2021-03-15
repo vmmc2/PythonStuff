@@ -18,3 +18,9 @@ def getSumList(l: List[int]) -> int:
         sum = sum + x
     return sum
 ```
+* Listas possuem alguns métodos bastante úteis que auxiliam na sua manipulação. São eles:
+  * indexing -> O famoso operador ```[ind]```, que retorna um o valor presente na lista naquela posição. Lembrando que: 0 <= ind < len(lista)
+  * .append() -> Responsável por adicionar um elemento no final de uma lista.
+  * pop() -> Responsável por excluir um elemento de uma lista baseado no seu índice. Caso, não passemos nenhum parâmetro dentro desse método, o último valor da lista é que será removido. __Vale ressaltar que esse método não só remove o valor como também o retorna.__
+  * len() -> Responsável por retornar o tamanho (qtd de elementos) de uma lista.
+* Existe mais um monte de métodos de listas para Python.
