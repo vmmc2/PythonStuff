@@ -33,5 +33,5 @@ def getSumList(l: List[int]) -> int:
 constantesFamosas: List[float] = [3.14, 1.41, 1.73, 2.24, 1.62, 0]
 
 squared = list(map((lambda x: x*x), constantesFamosas)) 
-evens = lista(filter((lambda x: x % 2 == 0), constantesFamosas))
+evens = list(filter((lambda x: x % 2 == 0), constantesFamosas))
 ```
