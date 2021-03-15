@@ -25,3 +25,13 @@ def getSumList(l: List[int]) -> int:
   * len(lista) -> Responsável por retornar o tamanho (qtd de elementos) de uma lista. __Essa aqui não é um método, mas sim uma função!!!__
   * Insert(ind, valor) -> Responsável por inserir um novo valor dentro de uma lista em um índice/posição específica.
 * Existe mais um monte de métodos de listas para Python.
+
+### Map, Filter e Fold em Listas de Python
+* Assim como vimos em Haskell, podemos usar essas funções de alta ordem em Python, desde que em conjunto com lambdas.
+* Observe alguns exemplos abaixo:
+```Python
+constantesFamosas: List[float] = [3.14, 1.41, 1.73, 2.24, 1.62, 0]
+
+squared = list(map((lambda x: x*x), constantesFamosas)) 
+evens = lista(filter((lambda x: x % 2 == 0), constantesFamosas))
+```
