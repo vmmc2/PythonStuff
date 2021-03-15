@@ -38,3 +38,23 @@ squared = list(map((lambda x: x*x), constantesFamosas))
 evens = list(filter((lambda x: x % 2 == 0), constantesFamosas))
 sumLista = reduce((lambda x, y: x + y), constantesFamosas, 0)
 ```
+
+### Um pouco mais sobre Listas
+* __Linhas em Python, funcionam como referencias. Ou seja, se definimos uma lista (por meio da criacao de uma variável) e depois a atribuimos a uma outra variável, as duas variáveis estão "apontando" para a mesma lista na memória. Tomar cuidado com isso!__
+```Python
+lista1 = [1,2,3]
+lista2 = lista1 # Atribuição por referência 
+
+lista2.append(4)
+print(lista1) # [1,2,3,4]
+print(lista2) # [1,2,3,4]
+```
+* __Para trabalhar com atribuição de cópia podemos fazer o seguinte:__
+```Python
+lista1 = [1,2,3]
+lista2 = lista1[:] # Atribuição por cópia
+
+lista2.append(4)
+print(lista1) # [1,2,3]
+print(lista2) # [1,2,3,4]
+```
