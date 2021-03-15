@@ -30,8 +30,11 @@ def getSumList(l: List[int]) -> int:
 * Assim como vimos em Haskell, podemos usar essas funções de alta ordem em Python, desde que em conjunto com lambdas.
 * Observe alguns exemplos abaixo:
 ```Python
+from functools import reduce
+
 constantesFamosas: List[float] = [3.14, 1.41, 1.73, 2.24, 1.62, 0]
 
 squared = list(map((lambda x: x*x), constantesFamosas)) 
 evens = list(filter((lambda x: x % 2 == 0), constantesFamosas))
+sumLista = reduce((lambda x, y: x + y), constantesFamosas, 0)
 ```
