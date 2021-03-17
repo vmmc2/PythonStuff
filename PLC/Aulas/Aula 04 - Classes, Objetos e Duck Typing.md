@@ -16,3 +16,4 @@ class Tempo:
 # A classe Tempo define um novo tipo.
 t: Tempo = Tempo(21,42,24)
 ```
+* __IMPORTANTE: Vale destacar que é possível criar atributos em objetos de forma dinâmica (em tempo de execução). Diferentemente do que acontece em C++/Java.__
