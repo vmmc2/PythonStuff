@@ -11,6 +11,7 @@ class Tempo:
         self.minuto = m
         self.hora = h
 # O parâmetro "self" referencia o próprio objeto que está sendo criado.
+# Esse é uma parâmetro implícito, passado pelo próprio Python. E deve estar presente como primeiro parâmetro em todos os métodos definidos dentro de uma classe.
 
 
 # A classe Tempo define um novo tipo.
