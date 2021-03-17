@@ -10,6 +10,8 @@ class Tempo:
         self.segundo = s
         self.minuto = m
         self.hora = h
+# O parâmetro "self" referencia o próprio objeto que está sendo criado.
+
 
 # A classe Tempo define um novo tipo.
 t: Tempo = Tempo(21,42,24)
