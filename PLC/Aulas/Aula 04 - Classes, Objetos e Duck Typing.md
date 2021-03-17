@@ -58,3 +58,33 @@ passado == agora
 False
 # Mesmo que esses objetos tenham os mesmo valores em seus atributos internos, nós não definimos na classe Tempo nenhuma maneira de checar a igualdade entre dois objetos. Sendo assim, o que Python faz é verificar se esses objetos são na verdade o mesmo objeto (endereços iguais). Como isso não é verdade, o interpretador retorna False.
 ```
+* Para resolver esse problema, é necessário implementar a nossa própria versão do método ```def __str__(self):```. Observe:
+```Python
+def __str__(self):
+    return str(self.hora) + ":" + str(self.minuto) + ":" + str(self.segundo)
+```
+* Em Python, também existe o conceito de sobrecarga de construtores. Isto é construtores para um mesmo objeto mas que possuem uma quantidade de parâmetros diferentes e funcionam de formas distintas. Observe abaixo:
+```Python
+class Node:
+    def __init__(self, e):
+        self.element = e
+        self.next = None
+        
+class LinkedList:
+    def __init__(self):
+        self.elements = None
+        
+    def __init__(self, e):
+        self.elements = Node(e)
+        
+    def append(self, e):
+        current = self.elements
+        if current == None:
+            self.elements = Node(e)
+            return
+        else:
+            while current.next != None:
+                current = current.next
+            current.next = Node(e)
+        return
+```
