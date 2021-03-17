@@ -74,7 +74,7 @@ class LinkedListIterator:
     def __next__(self):
         if not self.current:
             raise StopIteration
-        result = self.current
+        result = self.current.element # Pega o valor dentro do Node
         self.current = self.current.next
         return result
 
