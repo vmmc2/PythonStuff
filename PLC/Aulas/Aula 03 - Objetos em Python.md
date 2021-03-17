@@ -14,3 +14,4 @@ tmnt = Turtle() # Criando um objeto do tipo(classe) "Turtle".
 ```
 * __Novamente, os objetos são valores. Ou seja, podem ser guardados em variáveis, passados como parâmetros, devolvidos por funções, etc...__
 * __Suas variáveis internas (atributos) são manipuladas por meio de métodos.__
+* __Como vimos na aula passada, objetos em Python utilizam semântica de referência. Ou seja, se eu crio um objeto por meio da atribuição de um construtor a uma variável ```a``` e depois de criado, eu atribuo essa variável ```a``` a uma outra variável ```b```, temos que ambos as variáveis estão apontando para o mesmo objeto na memória. (Funciona de forma semelhante a ponteiros em C/C++).__
