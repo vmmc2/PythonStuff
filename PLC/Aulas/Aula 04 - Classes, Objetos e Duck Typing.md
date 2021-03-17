@@ -16,4 +16,15 @@ class Tempo:
 # A classe Tempo define um novo tipo.
 t: Tempo = Tempo(21,42,24)
 ```
-* __IMPORTANTE: Vale destacar que é possível criar atributos em objetos de forma dinâmica (em tempo de execução). Diferentemente do que acontece em C++/Java.__
+* __IMPORTANTE: Vale destacar que é possível criar atributos em objetos de forma dinâmica (em tempo de execução). Diferentemente do que acontece em C++/Java. No entanto, essa prática não é recomendada, pois pode ser surpreendente para algumas partes do programa.__
+
+### Classes
+* Classes definem novos tipos. Funcionam basicamente como um "blueprint" para novos tipos.
+* Em geral, representam um conceito (por exemplo: o conceito de horário ou de uma estrutura de dados).
+* Exemplos comuns: List, Dict, Turtle.
+* __PyCharm e myPy verificam esses novos tipos criados, se forem indicados em variáveis ou funções.__
+* O mesmo vale para novos tipos definidos pelo programador.
+
+### Diferenças entre Classes e Objetos
+* Objetos: Estado + Comportamento (Em outras palavras: Variáveis/Atributos + Funções/Métodos).
+* Classes: Coleção de objetos (ou instâncias) com as mesmas características.
