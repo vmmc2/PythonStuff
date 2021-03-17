@@ -63,8 +63,21 @@ False
 def __str__(self):
     return str(self.hora) + ":" + str(self.minuto) + ":" + str(self.segundo)
 ```
-* Em Python, também existe o conceito de sobrecarga de construtores. Isto é construtores para um mesmo objeto mas que possuem uma quantidade de parâmetros diferentes e funcionam de formas distintas. Observe abaixo:
+* Em Python, também existe o conceito de sobrecarga de construtores. Isto é construtores para um mesmo objeto mas que possuem uma quantidade de parâmetros diferentes e funcionam de formas distintas. 
+* E se nós quisermos criar uma lista encadeada de tal forma que possamos iterar pelo seus elementos com um laço "for"? Para fazer isso, precisamos definir dois métodos dentro dessa classe: ```def __iter__(self):``` e ```def __next__(self):```
+* Observe abaixo:
 ```Python
+class LinkedListIterator:
+    def __init__(self, e):
+        self.elements = e
+        self.current = e
+    def __next__(self):
+        if not self.current:
+            raise StopIteration
+        result = self.current
+        self.current = self.current.next
+        return result
+
 class Node:
     def __init__(self, e):
         self.element = e
@@ -81,10 +94,12 @@ class LinkedList:
         current = self.elements
         if current == None:
             self.elements = Node(e)
-            return
         else:
             while current.next != None:
                 current = current.next
             current.next = Node(e)
         return
+        
+    def __iter__(self):
+        return LinkedListIterator(self.elements)
 ```
