@@ -4,3 +4,4 @@
 1) Caracteristicas Fisicas
 2) Traducao de Texto
 3) Brincando de Loteria
+4) Contar Caracteres
