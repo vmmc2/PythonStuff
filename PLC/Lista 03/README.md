@@ -7,3 +7,4 @@
 4) Contar Caracteres
 5) Criptografia
 6) Avaliador de Jogo da Velha
+7) Carrossel
