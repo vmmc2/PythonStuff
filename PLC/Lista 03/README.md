@@ -6,3 +6,4 @@
 3) Brincando de Loteria
 4) Contar Caracteres
 5) Criptografia
+6) Avaliador de Jogo da Velha
